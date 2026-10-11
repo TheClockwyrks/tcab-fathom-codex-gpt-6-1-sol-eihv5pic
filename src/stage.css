@@ -1,0 +1,6 @@
+/* Keep the page's viewport-relative layout when the engine pins inline sizes.
+   The engine still owns backing-store sizing, the aspect fit, and letterboxing. */
+#stage {
+  width: 100vw !important;
+  height: 100vh !important;
+}
